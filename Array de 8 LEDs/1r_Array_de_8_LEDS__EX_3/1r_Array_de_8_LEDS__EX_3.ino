@@ -133,7 +133,7 @@ void loop()
   
   delay(Time);                  // es queden leds 300ms encesos
 
-    digitalWrite(led0, LOW);    // posar a 5V el pin 5
+  digitalWrite(led0, LOW);    // posar a 5V el pin 5
   digitalWrite(led1, LOW);    // posar a 5V el pin 6
   digitalWrite(led2, LOW);    // posar a 5V el pin 7
   digitalWrite(led3, LOW);    // posar a 5V el pin 8
