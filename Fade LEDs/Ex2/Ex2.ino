@@ -104,6 +104,96 @@ void loop()
   analogWrite(led5, 0);    // posar PWM del pin 11 a 0
   
   delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+   analogWrite(led0, 255);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 0);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 0);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 0);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 0);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 0);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 125);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 255);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 0);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 0);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 0);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 0);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 60);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 125);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 255);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 0);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 0);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 0);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 0);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 60);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 125);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 255);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 0);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 0);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 0);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 0);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 60);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 125);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 255);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 0);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 0);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 0);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 60);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 125);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 255);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 0);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 0);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 0);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 0);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 60);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 125);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 255);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 0);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 0);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 0);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 0);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 60);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 125);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 0);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 0);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 0);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 0);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 0);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 60);     // posar PWM del pin 11 a 60
+
+  delay(velocitat);          // es queden leds velocitat ms en aquest estat
+
+  analogWrite(led0, 0);     // posar PWM del pin 3 a 60
+  analogWrite(led1, 0);     // posar PWM del pin 5 a 60
+  analogWrite(led2, 0);     // posar PWM del pin 6 a 60
+  analogWrite(led3, 0);     // posar PWM del pin 9 a 60
+  analogWrite(led4, 0);     // posar PWM del pin 10 a 60
+  analogWrite(led5, 0);     // posar PWM del pin 11 a 60
+
+    delay(2*velocitat);          // es queden leds velocitat ms en aquest estat
 }
 
 //********** Funcions *************************************************************
