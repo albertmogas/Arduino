@@ -27,7 +27,7 @@ pinMode(led0, OUTPUT);     // definir el pin 3 com una sortida
   pinMode(led3, OUTPUT);     // definir el pin 9 com una sortida
   pinMode(led4, OUTPUT);     // definir el pin 10 com una sortida
   pinMode(led5, OUTPUT);     // definir el pin 11 com una sortida
-  pinMode(button, INPUT);    // definir el pin 2 com una entrada
+  pinMode(buttonPin, INPUT);    // definir el pin 2 com una entrada
 }
 
 
