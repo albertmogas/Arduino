@@ -35,7 +35,7 @@ pinMode(led0, OUTPUT);     // definir el pin 3 com una sortida
 void loop()
 {
   buttonstate = digitalRead(buttonPin);
-  if (digitalRead(buttonstate) == 0)
+  if (buttonstate == 0)
   {
   analogWrite(led0, 0);     // posar PWM del pin 3 a 0
   analogWrite(led1, 0);     // posar PWM del pin 5 a 0
